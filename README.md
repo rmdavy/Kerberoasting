@@ -1,4 +1,4 @@
-# kerberos
+# Kerberoasting
 
 This repo contains educational code I created to better understand Kerberos. The repo now only includes code to use a Kerberoasting attack, but I might add new Kerberos attacks in the future.
 
