@@ -5,7 +5,7 @@ This repo contains educational code I created to better undertand Kerberos. The 
 # How to use
 
 First search for an SPN you want to Kerberoast:  
-setspn Q */*
+```setspn Q */*```
 
 Once you've found an SPN, use it as a parameter to get the TGS hash:  
-Kerberos.exe MSSQLSERVER/SQL-Server.thalpius.demo:1433
+```Kerberos.exe MSSQLSERVER/SQL-Server.thalpius.demo:1433```
