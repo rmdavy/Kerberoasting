@@ -1,0 +1,7 @@
+C:\Users\RaymondRoethof\source\repos\Kerberos\Kerberos\bin\Debug\Kerberos.exe.config
+C:\Users\RaymondRoethof\source\repos\Kerberos\Kerberos\bin\Debug\Kerberos.exe
+C:\Users\RaymondRoethof\source\repos\Kerberos\Kerberos\bin\Debug\Kerberos.pdb
+C:\Users\RaymondRoethof\source\repos\Kerberos\Kerberos\obj\Debug\Kerberos.csprojAssemblyReference.cache
+C:\Users\RaymondRoethof\source\repos\Kerberos\Kerberos\obj\Debug\Kerberos.csproj.CoreCompileInputs.cache
+C:\Users\RaymondRoethof\source\repos\Kerberos\Kerberos\obj\Debug\Kerberos.exe
+C:\Users\RaymondRoethof\source\repos\Kerberos\Kerberos\obj\Debug\Kerberos.pdb
