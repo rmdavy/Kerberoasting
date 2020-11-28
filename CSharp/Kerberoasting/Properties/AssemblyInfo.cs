@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Kerberos")]
+[assembly: AssemblyTitle("Kerberoasting")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Kerberos")]
+[assembly: AssemblyProduct("Kerberoasting")]
 [assembly: AssemblyCopyright("Copyright ©  2020")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("e293b2df-4fba-47b0-a872-408458f4734d")]
+[assembly: Guid("7cded3f5-b43d-48c4-b216-dd75b11a5b9d")]
 
 // Version information for an assembly consists of the following four values:
 //
