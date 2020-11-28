@@ -1,6 +1,6 @@
 # Kerberoasting
 
-This repo contains educational code I created to better understand Kerberos. The repo now only includes code to use a Kerberoasting attack, but I might add new Kerberos attacks in the future.
+I have created a small C# project that requests a Ticket Granting Service ticket using KerberosSecurityTokenProvider to use for Kerberoasting. I started the project for educational purposes only, but the tool works fine and is not detected by Microsoft Defender for Identity.
 
 # How to use
 
