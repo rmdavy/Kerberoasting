@@ -8,4 +8,4 @@ First search for an SPN you want to Kerberoast:
 ```setspn Q */*```
 
 Once you've found an SPN, use it as a parameter to get the TGS hash which you can use to crack:  
-```Kerberos.exe MSSQLSERVER/SQL-Server.thalpius.demo:1433```
+```Kerberoasting.exe MSSQLSERVER/SQL-Server.thalpius.demo:1433```
