@@ -2,7 +2,7 @@
 
 I have created a small C# project that requests a Ticket Granting Service ticket using KerberosSecurityTokenProvider to use for Kerberoasting. I started the project for educational purposes only, but the tool works fine and is not detected by Microsoft Defender for Identity.
 
-# How to use
+# Usage
 
 First search for an SPN you want to Kerberoast:  
 ```setspn -Q */*```
