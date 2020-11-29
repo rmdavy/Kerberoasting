@@ -9,3 +9,11 @@ First search for an SPN you want to Kerberoast:
 
 Once you've found an SPN, use it as a parameter to get the TGS hash which you can use to crack:  
 ```Kerberoasting.exe MSSQLSERVER/SQL-Server.thalpius.demo:1433```
+
+# Screenshots
+
+Getting all Service Principal Names within the domain:
+![Alt text](/Screenshots/Kerberoasting_01.jpg?raw=true "Get SPNs")
+
+Using Kerberoasting.exe to get the Ticket Granting Service ticket to Kerberoast:
+![Alt text](/Screenshots/Kerberoasting_02.jpg?raw=true "Get TGS")
