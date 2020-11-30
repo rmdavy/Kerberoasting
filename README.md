@@ -2,7 +2,7 @@
 
 I have created a small C# project that requests a Ticket Granting Service ticket using KerberosSecurityTokenProvider to use for Kerberoasting. I started the project for educational purposes only, but the tool works fine and is not detected by Microsoft Defender for Identity.
 
-For more information about Kerberoasting, please check my blog post:
+For more information about Kerberoasting, please check my blog post:  
 https://thalpius.com/2020/11/30/microsoft-defender-for-identity-kerberoasting/
 
 # Usage
